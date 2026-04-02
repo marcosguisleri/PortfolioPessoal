@@ -1,0 +1,23 @@
+body {
+  font-family: Fira Sans, Arial, sans-serif;
+  margin: 0px;
+  color: #191919;
+}
+
+h1, 
+h2, 
+h2, 
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
