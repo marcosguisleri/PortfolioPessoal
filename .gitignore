@@ -1,0 +1,26 @@
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Dependências
+node_modules/
+
+# Build / deploy
+dist/
+build/
+.vercel/
+
+# Arquivos temporários
+*.tmp
+*.temp
