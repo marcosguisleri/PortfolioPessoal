@@ -1,23 +1,179 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
+  <meta name="description" content="Desenvolvedor Fullstack e UX / UI Designer">
+
+  <meta property="og:title" content="Marcos Guisleri - Desenvolvedor Fullstack">
+  <meta property="og:description" content="Desenvolvimento e design orientados a problemas reais.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://guisleri.dev.br">
+
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Marcos Guisleri - Desenvolvedor Fullstack</title>
 </head>
+
 <body>
 
-  <header class="header">
-    <img src="./img/guisleri.svg" alt="Logo de Marcos Guisleri">
-    <nav>
+  <header class="container header">
+    <img src="./img/projetos/guisleri.svg" alt="Logo de Marcos Guisleri" width="104" height="38">
+    <nav aria-label="Navegação principal">
       <ul class="header-menu">
-        <li><a href="#sobre">Experiência</a></li>
-        <li><a href="#projetos">Formação</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#formacao">Formação</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
+  <main class="container introducao">
+    <img src="./img/imagem-perfil.jpg" alt="Imagem de perfil de Marcos Guisleri" width="360" height="520">
+    <div>
+      <h1>Desenvolvedor <br>Fullstack <span class="h1-separador">//</span><br> UX / UI Designer</h1>
+      <p>Desenvolvimento e design orientados a problemas reais 🎯</p>
+    </div>
+  </main>
+
+  <section class="container experiencia" id="experiencia" aria-label="Experiência">
+    <h2 class="subtitulo">Experiência</h2>
+
+    <div>
+      <p class="experiencia-texto">
+        Desenvolvo projetos <strong>Fullstack</strong> de pequeno porte, utilizando tecnologias modernas de <strong>Front-end</strong> e frameworks <strong>Java</strong>, como <strong>Spring Boot</strong> e <strong>Quarkus</strong>, para o <strong>Back-end</strong>
+      </p>
+
+      <div class="projeto">
+        <span class="projeto-ano">2026</span>
+        <h3 class="projeto-nome">Florinda Eats</h3>
+        <span class="projeto-nome">Projeto</span>
+        <p class="projeto-texto">
+          Sistema de cardápio digital do Restaurante da Dona Florinda. Com foco em comunicação em rede, persistência real e Java moderno.
+        </p>
+        <ul class="projeto-habilidades">
+          <li>Java</li>
+          <li>Gradle</li>
+          <li>MySQL</li>
+          <li>Docker</li>
+          <li>HTTP</li>
+          <li>Serialização</li>
+        </ul>
+      </div>
+
+      <div class="projeto">
+        <span class="projeto-ano">2026</span>
+        <h3 class="projeto-nome">Acolhe Pet</h3>
+        <span class="projeto-nome">Projeto</span>
+        <p class="projeto-texto">
+          Sistema de cadastro de pets via CLI desenvolvido em Java, com POO, persistência em arquivos .txt e validações de domínio.
+        </p>
+        <ul class="projeto-habilidades">
+          <li>Java</li>
+          <li>Maven</li>
+          <li>CRUD</li>
+          <li>Manipulação de Arquivos</li>
+        </ul>
+      </div>
+
+      <div class="projeto">
+        <span class="projeto-ano">2025</span>
+        <h3 class="projeto-nome">Voluntari-ei</h3>
+        <span class="projeto-nome">TCC</span>
+        <p class="projeto-texto">
+          Aplicativo móvel com o objetivo de conectar instituições filantrópicas a voluntários dispostos a contribuir com causas sociais.
+        </p>
+        <ul class="projeto-habilidades">
+          <li>React Native</li>
+          <li>Prisma ORM</li>
+          <li>Expo</li>
+          <li>PostgreSQL</li>
+          <li>Fastify</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formação">
+    <div class="container formacoes">
+      <h2 class="subtitulo">Formação</h2>
+
+      <div>
+        <p class="formacao-texto">
+          Sou <strong>bacharel</strong> em <strong>Sistemas de Informação</strong> 🎓 e, no momento, estou ampliando minha qualificação acadêmica por meio de duas <strong>pós-graduações lato sensu</strong> voltadas para o <strong>desenvolvimento de software</strong>
+        </p>
+
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">Bacharel</span>
+            <h3 class="faculdade-curso">Sistemas de Informação</h3>
+            <span class="faculdade-instituicao">FHO</span>
+          </li>
+
+          <li class="faculdade">
+            <span class="faculdade-tipo">Pós-Graduação</span>
+            <h3 class="faculdade-curso">Engenharia de<br> Software com<br> Java e IA</h3>
+            <span class="faculdade-instituicao">UNIPDS</span>
+          </li>
+
+          <li class="faculdade">
+            <span class="faculdade-tipo">Pós-Graduação</span>
+            <h3 class="faculdade-curso">Desenvolvimento <br>de Sistemas Web<br> e Aplicativos Móveis</h3>
+            <span class="faculdade-instituicao">IFSP</span>
+          </li>
+        </ul>
+
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Cursos Complementares</h3>
+            <ul>
+              <li>UX Design & UI Design <span>52h</span></li>
+              <li>Implantação de Serviços em Nuvem Microsoft AZ-900 <span>32h</span></li>
+            </ul>
+          </div>
+          <div class="certificacoes">
+            <h3>Certificações</h3>
+            <ul>
+              <li>Microsoft 365</li>
+            </ul>
+          </div>
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>Inglês <span>/ Intermediário</span></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contato">
+    <div class="container footer-contato">
+      <p class="footer-texto">
+        Em busca de novos desafios profissionais. Se tiver uma oportunidade, será um prazer conversar 👋
+      </p>
+      <ul>
+        <li><a href="mailto:marcos@guisleri.dev.br">marcos@guisleri.dev.br</a></li>
+        <li>+55 19 99675-8541</li>
+        <li class="footer-redes">
+          <a href="https://www.linkedin.com/in/marcosguisleri" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="./img/icons/icon-linkedin.svg" alt="LinkedIn">
+          </a>
+
+          <a href="https://github.com/marcosguisleri" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <img src="./img/icons/icon-github.svg" alt="GitHub">
+          </a>
+        </li>
+        <li>@marcosguisleri</li>
+      </ul>
+      <p class="footer-copy">© 2026 Marcos Guisleri. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
 </body>
+
 </html>
